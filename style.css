@@ -1,0 +1,80 @@
+@font-face {
+	font-family: titleFont;
+	src: url(fonts/Arenq.otf);
+ 	/*src: url(fonts/Bebas.ttf);
+*/
+}
+
+@font-face {
+	font-family: contentFont;
+	src: url(fonts/Montserrat-UltraLight.otf);
+}
+
+body {
+	background-color: rgb(20,20,20);
+/*	background-image: url(wild_oliva.png);*/
+}
+
+img {
+	height: auto;
+	width: auto;
+	max-width: 600px;
+	max-height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	margin: 5%;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+h3 {
+	color: white;
+}
+
+#B {
+	font-size: 180px;
+}
+
+#title {
+		background-color: rgb(56, 82, 155);
+
+/*	padding: 1px;*/
+margin: 10px;
+/*	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+*/
+
+}
+
+#nav {
+	margin: 10px;
+	text-align:center;
+	color: white;
+	font-family: contentFont;
+
+}
+
+a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+h1 {
+	font-family: titleFont;
+	text-align: center;
+	font-size: 130px;
+	/*color: rgb(109, 126, 155);*/
+	color: rgb(194, 203, 208);
+	color: rgb(255,255,255);
+}
